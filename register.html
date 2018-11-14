@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Proposal Management</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+    <div class="container">
+        <br>
+        <button class="button" id="logout">logout</button>
+        <h1>Register</h1>
+        <div>Your address : <span id="your_address"></span></div>
+        <br>
+        <div id="fields">
+            <div class="row">
+                <input type="text" class="u-full-width" id="username" />
+                <select class="u-full-width" id="party">
+                    <option value="1">party A</option>
+                    <option value="2">party B</option>
+                    <option value="3">party C</option>
+                </select>
+                <button class="u-full-width" id="register">register</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ethers-v3.0.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
